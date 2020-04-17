@@ -8,7 +8,7 @@ const Header = () => {
     return (
     <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="/">In Touch</Navbar.Brand>
-        <Navbar.Collapse>
+        <Navbar.Collapse id="header">
         <Nav className="mr-auto" defaultActiveKey={typeof location === 'undefined'? null:location.pathname}>
             <Nav.Link href="/getting-started">Getting Started</Nav.Link>
             <Nav.Link href="/backend">Backend</Nav.Link>
