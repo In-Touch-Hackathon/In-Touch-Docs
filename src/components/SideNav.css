@@ -1,0 +1,5 @@
+@media screen and (min-width: 764px) {
+    .sidenav {
+        height: calc(100% - 58px);
+    }
+}
