@@ -7,8 +7,8 @@ const Home = () => {
             <Row style={{maxWidth: 900, margin: 'auto', paddingTop: 50, paddingBottom: 50}}>
                 <Col>
                     <h1>In Touch</h1>
-                    <p style={{fontSize: '25px'}}>Build responsive and large scale engaging voice connected resource to help the elderly</p>
-                    <Button variant="outline-primary" style={{width: 150, padding: 5, marginRight: 10}}>Get Started</Button><Button variant="outline-secondary" style={{width: 150, padding: 5}}>Flutter</Button>
+                    <p style={{fontSize: '25px'}}>A responsive, scalable, and configurable service that allows the vulnerable eldery to get in touch with volunteers</p>
+                    <Button variant="outline-primary" href="/getting-started" style={{width: 150, padding: 5, marginRight: 10}}>Get Started</Button><Button variant="outline-secondary" style={{width: 150, padding: 5}}>Flutter</Button>
                 </Col>
             </Row>
             <Row>
