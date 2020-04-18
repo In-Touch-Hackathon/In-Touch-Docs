@@ -15,6 +15,8 @@ const Routes = () => {
                         <Route exact path="/getting-started" component={Introduction} />
                         <Route exact path="/getting-started/twilio" component={Twilio} />
                         <Route exact path="/getting-started/firebase" component={Firebase} />
+                        <Route exact path="/getting-started/backend" component={Backend} />
+                        <Route exact path="/getting-started/flutter" component={Flutter} />
                     </DocsLayout>
                 </Route>
                 <Route path="/backend">
