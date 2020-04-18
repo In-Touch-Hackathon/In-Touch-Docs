@@ -38,7 +38,7 @@ GOOGLE_APPLICATION_CREDENTIALS="/file/location/in-touch-firebase-adminsdk.json"<
 | TWILIO_SID                             | [Twilio SID](twilio)      |
 | TWILIO_SECRET                          | [Twilio Secret](twilio)     |
 | TWILIO_PHONE                           | [Purchased phone number](twilio) |
-| GOOGLE_APPLICATION_CREDENTIALS  | [JSON file from service account](firebase) |
+| GOOGLE_APPLICATION_CREDENTIALS &emsp;&emsp; | [JSON file from service account](firebase) |
 <br/>
 
 #### Run Backend

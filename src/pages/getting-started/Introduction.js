@@ -13,7 +13,7 @@ on.
 
 In Touch project includes
 - Twilio Voice and IVR
-- Firebase Authenication
+- Firebase Authentication
 - Firestore DB
 - Ready-to-use Flutter frontend
 
