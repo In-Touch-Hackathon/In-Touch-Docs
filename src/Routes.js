@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import DocsLayout from './layout/Docs'
 
 import { Introduction, Twilio, Firebase, Backend, Flutter } from './pages/getting-started'
+import { BackendIntro, ProjectNode, Handlers, Covid19, TwilioIVR, Firestore} from './pages/backend'
 
 const Routes = () => {
     return (
@@ -21,6 +22,12 @@ const Routes = () => {
                 </Route>
                 <Route path="/backend">
                     <DocsLayout>
+                    <Route exact path="/backend" component={BackendIntro} />
+                    <Route exact path="/backend/project" component={ProjectNode} />
+                    <Route exact path="/backend/handlers" component={Handlers} />
+                    <Route exact path="/backend/covid19" component={Covid19} />
+                    <Route exact path="/backend/twilio" component={TwilioIVR} />
+                    <Route exact path="/backend/firestore" component={Firestore} />
                     </DocsLayout>
                 </Route>
                 <Route path="/flutter">

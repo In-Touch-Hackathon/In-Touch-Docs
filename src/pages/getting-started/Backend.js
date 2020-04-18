@@ -51,4 +51,16 @@ Build project into JS
 
 <code>yarn build</code><br/><br/>
 
+#### Twilio Web Hook
+
+To get In Touch to handle incoming calls, set the end point of your Twilio phone number to point to the backend API.
+
+For example my backend is routed to https://intouch.tk/. 
+***Please ensure your API is accessible publicly.***
+Set the default Web hook into http://YOUR_IP:3000/ivr/welcome. /ivr/welcome is the default handler for incoming calls in this project
+
+![](../../images/twiliowebhook.png)
+
+You can also use Ngrok shown by twilio. [Allow Twilio to talk to your application](https://www.twilio.com/docs/voice/quickstart/node#allow-twilio-to-talk-to-your-application)
+
 `

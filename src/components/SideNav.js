@@ -31,17 +31,17 @@ const SideNav = () => {
                         </Col>:null}
                         <Nav.Link href="/backend">Backend</Nav.Link>
                         {check("/backend")?<Col>
-                            <Nav.Link href="/backend/" >Project Structure</Nav.Link>
-                            <Nav.Link href="/backend/" >Handlers</Nav.Link>
-                            <Nav.Link href="/backend/" >Covid19 Update</Nav.Link>
-                            <Nav.Link href="/backend/" >Twilio IVR</Nav.Link>
-                            <Nav.Link href="/backend/" >Firestore</Nav.Link>
+                            <Nav.Link href="/backend/project" >Project Structure</Nav.Link>
+                            <Nav.Link href="/backend/handlers" >Handlers</Nav.Link>
+                            <Nav.Link href="/backend/covid19" >Covid19 Update</Nav.Link>
+                            <Nav.Link href="/backend/twilio" >Twilio IVR</Nav.Link>
+                            <Nav.Link href="/backend/firestore" >Firestore</Nav.Link>
                         </Col>:null}
                         <Nav.Link href="/flutter">Flutter</Nav.Link>
                         {check("/flutter")?<Col>
-                            <Nav.Link href="/flutter/" >How to use</Nav.Link>
-                            <Nav.Link href="/flutter/" >Features/Pages</Nav.Link>
-                            <Nav.Link href="/flutter/" >Project Structure</Nav.Link>
+                            <Nav.Link href="/flutter/how-to-use" >How to use</Nav.Link>
+                            <Nav.Link href="/flutter/pages" >Features/Pages</Nav.Link>
+                            <Nav.Link href="/flutter/project" >Project Structure</Nav.Link>
                         </Col>:null}
                     </Nav>
                 </Navbar.Collapse>
