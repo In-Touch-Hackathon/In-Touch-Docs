@@ -15,7 +15,7 @@ Main frameworks:
 - [Nodemon](https://nodemon.io/)
 
 
-[Github Repo](https://github.com/scorpionknifes/In-Touch-Backend)
+[Github Repo](https://github.com/In-Touch-Hackathon/In-Touch-Backend)
 
 #### Setup Guide
 [Read more](/getting-started/backend)

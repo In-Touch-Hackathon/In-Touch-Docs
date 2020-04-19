@@ -4,11 +4,19 @@ import { mdx } from 'mdx.macro';
 export const Backend = mdx`
 # Node TS Backend
 
-Git Clone or Fork our [In Touch's Backend](https://github.com/scorpionknifes/In-Touch-Backend)
+Git Clone or Fork our [In Touch's Backend](https://github.com/In-Touch-Hackathon/In-Touch-Backend)
 
 ## Installation
 
 In Touch backend requires [Twilio credentials](/getting-started/twilio) and [Firebase credentials](/getting-started/firebase).
+
+Please ensure Node version is v12.15.0 or newer
+<code>node -v</code>
+<br/><br/>
+
+If you see the following error please update node.
+<code>--insecure-http-parser is not allowed in NODE_OPTIONS</code>
+<br/><br/>
 
 #### Install dependencies
 
@@ -18,7 +26,7 @@ Install project dependencies using [yarn](https://classic.yarnpkg.com/en/docs/in
 
 #### Setup .env
 
-Rename [.env-example](https://github.com/scorpionknifes/In-Touch-Backend/blob/master/.env-example) to .env and setup variables
+Rename [.env-example](https://github.com/In-Touch-Hackathon/In-Touch-Backend/blob/master/.env-example) to .env and setup variables
 <code>
 ## .env<br/>
 # general<br/>

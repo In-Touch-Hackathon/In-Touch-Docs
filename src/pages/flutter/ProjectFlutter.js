@@ -31,7 +31,7 @@ Folder Structure:
 
 #### Lib
 
-Source code folder
+Flutter source code folder, this is 
 
 #### UI
 

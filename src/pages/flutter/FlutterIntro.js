@@ -18,11 +18,12 @@ you may choose to implement your own frontend.
 ***Please read [Setup Flutter](http://localhost:3001/getting-started/flutter) to get started***
 
 
-[Github Repo](https://github.com/scorpionknifes/In-Touch-App)
+[Github Repo](https://github.com/In-Touch-Hackathon/In-Touch-App)
 
 #### Table of Content
 - [How to use](/flutter/how-to-use) - Demonstrates how to use App
 - [Features/Pages](/flutter/pages) - Showcase of pages
 - [Project Structure](/flutter/project) -  Describes project structure and how to utilise
 
+![](../../images/home.jpg)
 `

@@ -6,9 +6,13 @@ export const Covid19 = mdx`
 
 In Touch Covid 19 Status is scraped directly from www.health.govt.nz and covid19.govt.nz for the latest active info.
 
-Scraping script is located in [./src/data.ts](https://github.com/scorpionknifes/In-Touch-Backend/blob/master/src/data.ts)
+Scraping script is located in [./src/data.ts](https://github.com/In-Touch-Hackathon/In-Touch-Backend/blob/master/src/data.ts)
 
 The script is designed to be easily altered to support different sites.
+
+***Note: *** **--insecure-http-parser** *** is used to ensure no error would happen if scraped site gives an invalid header***
+<code>Warning: Using insecure HTTP parsing</code>
+<br/><br/>
 
 ## How we got Covid 19 status
 

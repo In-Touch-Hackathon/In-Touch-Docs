@@ -8,7 +8,7 @@ const Home = () => {
                 <Col>
                     <h1>In Touch</h1>
                     <p style={{fontSize: '25px'}}>A responsive, scalable, and configurable service that allows the vulnerable eldery to get in touch with volunteers</p>
-                    <Button variant="outline-primary" href="/getting-started" style={{width: 150, padding: 5, marginRight: 10}}>Get Started</Button><Button variant="outline-secondary" style={{width: 150, padding: 5}}>Flutter</Button>
+                    <Button variant="outline-primary" href="/getting-started" style={{width: 150, padding: 5, marginRight: 10}}>Get Started</Button><Button variant="outline-secondary" style={{width: 150, padding: 5}} href="/flutter">Flutter</Button>
                 </Col>
             </Row>
             <Row>
@@ -22,7 +22,7 @@ const Home = () => {
                 </Col>
                 <Col sm={4} xs={12} >
                     <p style={{fontSize: '28px'}}>Skillsme Hackathon</p>
-                    <p>This project is made for a skillsms hackathon with the mentality to help people during the covid 19 epidemic.</p>
+                    <p>This project is made for a Skillsme hackathon with the mentality to help people during the covid 19 epidemic.</p>
                 </Col>
             </Row>
         </Container>
