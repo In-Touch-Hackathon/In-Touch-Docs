@@ -7,7 +7,7 @@ const Home = () => {
             <Row style={{maxWidth: 900, margin: 'auto', paddingTop: 50, paddingBottom: 50}}>
                 <Col>
                     <h1>In Touch</h1>
-                    <p style={{fontSize: '25px'}}>A responsive, scalable, and configurable service that allows the vulnerable eldery to get in touch with volunteers</p>
+                    <p style={{fontSize: '25px'}}>A responsive, scalable, and configurable service that allows the vulnerable elderly to get in touch with volunteers</p>
                     <Button variant="outline-primary" href="/getting-started" style={{width: 150, padding: 5, marginRight: 10}}>Get Started</Button><Button variant="outline-secondary" style={{width: 150, padding: 5}} href="/flutter">Flutter</Button>
                 </Col>
             </Row>
