@@ -15,7 +15,7 @@ const SideNav = () => {
                         <FormControl
                             style={{ background: 0, borderWidth: 0, borderBottomWidth: 1, borderRadius: 0, borderBottomColor: '#212529', color: '#212529' }}
                             type="text"
-                            placeholder="Search"
+                            placeholder=""
                         />
                     </Col>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -14,7 +14,7 @@ const Home = () => {
             <Row>
                 <Col sm={4} xs={12} >
                     <p style={{fontSize: '28px'}}>Built with Twilio</p>
-                    <p>Project is built using Twilio making the setup and customisation easy.</p>
+                    <p>Project is built using Twilio making the setup and customisation easy. Twilio handles all the complicated hardware required to connect phone numbers to the cloud which allows In Touch to focus on what is important</p>
                 </Col>
                 <Col sm={4} xs={12} >
                     <p style={{fontSize: '28px'}}>Built with Firebase</p>

@@ -14,7 +14,7 @@ Git Clone or Fork our [In Touch's Flutter App](https://github.com/In-Touch-Hacka
 3. In Settings/Plugins, install flutter plugin for Android studio. (requires restart)
 3. In Settings/Languages & Frameworks/Flutter, add your Flutter SDK.
 
-## How to use Flutter App
+## How to use Flutter
 - [Setup IDE](https://flutter.dev/docs/get-started/editor)
 - [Running App](https://flutter.dev/docs/get-started/test-drive?tab=androidstudio)
 - [Getting Started with your first Flutter app](https://flutter.dev/docs/get-started/codelab)

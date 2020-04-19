@@ -31,15 +31,24 @@ Folder Structure:
 
 #### Lib
 
-Flutter source code folder, this is 
+Flutter source code folder, this is where all the dart files are located for flutter.
 
 #### UI
-
-Pages and flutter UI
+Dart files for UI related pages. Each file is a new page.
+- callHistoryPage - Shows user's call history
+- homePage - Home containing infoPage, callHistoryPage, profilePage
+- infoPage - Shows covid19 status
+- loginPage - Login form to login
+- phoneNumberPage - Phone number form before verification
+- profilePage - Shows user profile and custom settings
+- signUpPage - Sign up form to register
+- welcomePage - Welcome page for new users
 
 #### Shared
 
-Shared Components
+Shared components that are used in multiple pages.
+- Validator - used to validate email and display name.
+- Input form widget component.
 
 `
 
