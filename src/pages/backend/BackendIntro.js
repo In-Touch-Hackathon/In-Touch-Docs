@@ -4,8 +4,8 @@ import { mdx } from 'mdx.macro';
 export const BackendIntro = mdx`
 # In Touch Backend
 
-In Touch Backend is written in Typescript Node JS ES6. This project is designed to be easily
-build on. The following docs will teach you how to use and build on this template.
+In Touch's Backend is written in Typescript Node JS ES6. This project is designed to be easily
+build upon. The following docs will teach you how to use and build on this template.
 
 Main frameworks:
 - [Express](https://expressjs.com/)
@@ -23,8 +23,8 @@ Main frameworks:
 #### Table of Content
 - [Project Struture](/backend/project) - Describes project structure and how to utilise
 - [Handlers](/backend/handlers) - REST API handlers and specification
-- [Covid19 Update](/backend/covid19) - Covid 19 Status Scraper
-- [Twilio IVR](/backend/twilio) - IVR (Interactive Voice Response) - Handles incoming calls
+- [Covid19 Update](/backend/covid19) - Covid 19 Status scraper
+- [Twilio IVR](/backend/twilio) - IVR (Interactive Voice Response) - handles incoming calls
 - [Firestore](/backend/firestore) - Database guide and structure
 
 `

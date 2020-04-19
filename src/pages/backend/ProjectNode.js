@@ -4,7 +4,7 @@ import { mdx } from 'mdx.macro';
 export const ProjectNode = mdx`
 # Project Struture
 
-In Touch Node project is designed to be easily to understand and configure
+In Touch's Node.JS project is designed to be easily understood and configurable
 
 Folder Structure:
 <code>
@@ -26,18 +26,18 @@ Folder Structure:
 
 #### Controllers
 
-- Twilio Controller - Handles Twilio web hook (required to handle incoming calls)
-- API - Handles general REST Api calls
-- Heathcheck - Handles healthcheck (required for k8s in the future)
+- Twilio Controller - handles Twilio web hook (required to handle incoming calls)
+- API - handles general REST Api calls
+- Heathcheck - handles healthcheck (required for k8s in the future)
 
 #### Libraries
 
-- Firebase - handles all firestore and FCM
+- Firebase - handles all Firestore and FCM
 - Twilio - handles Twilio SDK
 
 #### Middleware
 
-- Auth - handles Firebase token check using bearer.
+- Auth - handles Firebase token check using bearer
 - Validator - handles validating POST request in Express
 
 #### Models

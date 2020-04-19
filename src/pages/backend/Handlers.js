@@ -4,7 +4,7 @@ import { mdx } from 'mdx.macro';
 export const Handlers = mdx`
 # Handlers
 
-This is an API Documentation for the REST API part of the backend
+This is the API Documentation for the REST API part of In Touch's backend.
 
 ## Routes
 - POST **/ivr/welcome** - *Twilio IVR welcome*
@@ -16,12 +16,12 @@ This is an API Documentation for the REST API part of the backend
 - GET **/healthcheck** - *Healthcheck of API*
 
 #### POST **/ivr/welcome**
-Twilio IVR welcome. Twilio Web Hook would call this when a call comes in
+This is the Twilio IVR welcome. The Twilio Webhook will call this when a call comes in.
 
-###### Parameters
+###### Parameters:
 None
 
-###### Response
+###### Response:
 text/xml
 <code>
 &lt;Response&gt;<br/>
@@ -34,16 +34,16 @@ text/xml
 </code><br/>
 
 #### POST **/ivr/menu**
-Twilio IVR menu
+This is the Twilio IVR menu.
 
-###### Parameters
+###### Parameters:
 <code>
 Body: &#123;<br/>
 &emsp;&emsp;Digits: 0 <br/>
 &#125;<br/>
 </code><br/>
 
-###### Response
+###### Response:
 text/xml
 <code>
 </code>
@@ -72,13 +72,13 @@ ELSE<br/>
 </code><br/>
 
 #### POST **/connect/:id**
-Calls user into the conference room :id
+This calls the user into the conference room.
 - Require Auth
 
-###### Parameters
+###### Parameters:
 :id - conference room id
 
-###### Response
+###### Response:
 application/json
 <code>
 &#123;<br/>
@@ -87,9 +87,9 @@ application/json
 </code><br/>
 
 #### POST **/register**
-Register phone number and display name after registing with Firebase auth
+This registers phone number and display name on the Flutter app after registing with Firebase Auth.
 
-###### Parameters
+###### Parameters:
 <code>
 Body: &#123;<br/>
 &emsp;&emsp;displayName: string <br/>
@@ -97,7 +97,7 @@ Body: &#123;<br/>
 &#125;<br/>
 </code><br/>
 
-###### Response
+###### Response:
 application/json
 <code>
 &#123;<br/>
@@ -106,10 +106,10 @@ application/json
 </code><br/>
 
 #### POST **/verify**
-Calls the logged in user's phone number and tell user their verification code (expires in 5 mins)
+This calls the logged-in user's phone number on the Flutter app and tells the user their verification code, which expires in 5 minutes of the call being made.
 - Require Auth
 
-###### Response
+###### Response:
 application/json
 <code>
 &#123;<br/>
@@ -118,9 +118,9 @@ application/json
 </code><br/>
 
 #### GET **/covid19** 
-Get current Covid 19 status
+This gets the current Covid 19 status for the Flutter app.
 
-###### Response
+###### Response:
 application/json
 <code>
 &#123;<br/>
@@ -136,7 +136,7 @@ application/json
 </code><br/>
 
 #### GET **/healthcheck**
-Healthcheck of API
+This returns a health check on the API.
 
 ###### Response
 application/json

@@ -2,28 +2,29 @@ import React from 'react';
 import { mdx } from 'mdx.macro';
 
 export const Covid19 = mdx`
-# Get Current NZ Covid 19 Status
+# Get COVID-19 Status
 
-In Touch Covid 19 Status is scraped directly from www.health.govt.nz and covid19.govt.nz for the latest active info.
+In Touch's COVID-19 status is scraped directly from www.health.govt.nz and covid19.govt.nz for the latest active information.
 
-Scraping script is located in [./src/data.ts](https://github.com/In-Touch-Hackathon/In-Touch-Backend/blob/master/src/data.ts)
+The scraping script is located in [./src/data.ts](https://github.com/In-Touch-Hackathon/In-Touch-Backend/blob/master/src/data.ts).
 
-The script is designed to be easily altered to support different sites.
+This script is designed to be easily altered to support different websites.
 
-***Note: *** **--insecure-http-parser** *** is used to ensure no error would happen if scraped site gives an invalid header***
+***Note: *** **--insecure-http-parser** *** is used to ensure no errors will happen if scraped site gives an invalid header***
 <code>Warning: Using insecure HTTP parsing</code>
 <br/><br/>
 
-## How we got Covid 19 status
+## How we get COVID-19's current status
 
-In Touch scraped covid 19 status using [health.govt.nz](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases)
+In Touch scrapes COVID-19's status using [health.govt.nz](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases). 
+
 ![](../../images/covid19status.png)
 
-We scraped current Alert Level from [covid19.govt.nz](https://covid19.govt.nz/alert-system/current-covid-19-alert-level/)
+We alse scrape the current Alert Level from [covid19.govt.nz](https://covid19.govt.nz/alert-system/current-covid-19-alert-level/).
 
 ![](../../images/covid19level.png)
 
-We fetch the URL page every 12 hrs for updates
+We fetch the URL page every 12 hrs for updates.
 <code>
 load(fetch("Website_URL").text()) // Load HTML<br/>
 load(fetch("Website_URL").text())('h3').text() // Extract content from &lt;h3&gt;Content&lt;/h3&gt; in html
@@ -31,8 +32,8 @@ load(fetch("Website_URL").text())('h3').text() // Extract content from &lt;h3&gt
 
 ## Customising Scraper
 
-By changing the URL and elements to scrape data.ts can scrape any website required.
-The current fields in Statistics interface can be easily changed and would supported by GET /covid19 handler.
+We can customise the scraper by changing the URL and elements in data.ts to scrape any website required.
+The current fields in the Statistics interface can be easily changed and would be supported by the GET COVID-19 handler.
 <code>
 export interface Statistics &#123;<br/>
 &emsp;&emsp;level: 0<br/>

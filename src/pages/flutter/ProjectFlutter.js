@@ -5,7 +5,7 @@ export const ProjectFlutter = mdx`
 
 # Project Struture
 
-In Touch Flutter app project is designed to be easy to add new pages and change existing ones
+In Touch's Flutter application is designed to be easy to add new pages and change existing ones.
 
 Folder Structure:
 <code>
@@ -26,29 +26,29 @@ Folder Structure:
 
 #### Android
 
-- Change Build settings here
-- Change Project Logo and package
+- Change build settings here
+- Change project logo and package
 
 #### Lib
 
-Flutter source code folder, this is where all the dart files are located for flutter.
+This is the Flutter application's source code folder, this is where all the dart files are located for Flutter.
 
 #### UI
-Dart files for UI related pages. Each file is a new page.
+This contains the Dart files for UI related pages. Each file is a new page.
 - callHistoryPage - Shows user's call history
-- homePage - Home containing infoPage, callHistoryPage, profilePage
+- homePage - Home navigation bar, allowing switching between infoPage, callHistoryPage, profilePage
 - infoPage - Shows covid19 status
 - loginPage - Login form to login
 - phoneNumberPage - Phone number form before verification
 - profilePage - Shows user profile and custom settings
 - signUpPage - Sign up form to register
-- welcomePage - Welcome page for new users
+- welcomePage - Welcome page for users
 
 #### Shared
 
 Shared components that are used in multiple pages.
-- Validator - used to validate email and display name.
-- Input form widget component.
+- Validator - used to validate email and display name
+- Input form widget component
 
 `
 
