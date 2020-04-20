@@ -22,7 +22,7 @@ const Home = () => {
                 </Col>
                 <Col sm={4} xs={12} >
                     <p style={{fontSize: '28px'}}>Built with Firebase</p>
-                    <p>Project uses Firebase authentication and Firestore. This give us support for multiple platforms and makes adding new features easy. The Firebase authentication SDK adds the feature of Google and Facebook Login.</p>
+                    <p>Project uses Firebase authentication and Firestore. This give us support for multiple platforms and makes adding new features easy. The Firebase authentication SDK can make adding the features like Google and Facebook Login easy.</p>
                 </Col>
                 <Col sm={4} xs={12} >
                     <p style={{fontSize: '28px'}}>Skillsme Hackathon</p>
